@@ -1,0 +1,134 @@
+.banner{
+width: 100%;
+height: 100vh;
+background-color: #398dd6;
+background-image: url('https://www.specbee.com/sites/default/files/2023-04/new-home-page-banner.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.banner-content{
+     margin: 0 76.4px;
+}
+
+.banner__wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    color: white;
+
+
+}
+.banner__container{
+    margin-top: 9rem;
+}
+
+.banner__botton--link {
+    padding: 13px 28px;
+    background-color: #f05a10;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.banner__title{
+    font-size: 67.5px;
+    margin: 0 0 9px;
+}
+.banner__desc{
+    font-size: 29.25px;
+    margin: 0 0 9px;
+    padding: 18px 0 0;
+    margin-bottom: 45px;
+}
+.banner__botton{
+    margin-top: 30px;
+}
+.brand__logo_list{
+    display: flex;
+    gap: 5rem;
+}
+
+@media only screen and (min-width:668px )and (max-width:1024px){
+    .banner-content {
+        margin: 0 55.4px;
+    }
+    .banner{
+        width: 100%;
+        height: 100vh;
+        background-color: #398dd6;
+        background-image: none;
+        }
+        .banner__container {
+            margin-top: 5rem;
+        }
+        .banner__title {
+            font-size: 45px;
+            margin: 5px 0 9px;
+            font-weight: 700;
+        }
+        .banner__desc {
+            font-size: 25px;
+            margin: 0 0 9px;
+            padding: 5px 0 0;
+            margin-bottom: 28px;
+            font-weight: 500;
+        }
+        .banner__botton--link {
+            padding: 10px 15px;
+            background-color: #f05a10;
+            text-decoration: none;
+            cursor: pointer;
+            color: white;
+            font-size: 15px;
+        }
+
+
+
+}
+@media only screen and (min-width:375px )and (max-width:667px) {
+    .banner__title{
+        font-size: 36px;
+        margin:0 0 15px;
+        text-align: center;
+        padding: 2px;
+
+    }
+    .banner-content{
+        margin: 0 10px;
+   }
+   .banner__container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+   }
+    .banner{
+        width: 100%;
+        height: 70vh;
+        background-color: #398dd6;
+        background-image: none;
+    }
+    .banner__wrapper {
+        max-width: 100%;
+    }
+    .banner__container {
+        margin-top: 4rem;
+    }
+    .banner__desc {
+        font-size: 16px;
+        margin: 0 10px 50px;
+        padding: 10px;
+        text-align: center;
+    }
+    .banner__botton--link {
+        padding: 10px 12px;
+        background-color: #f05a10;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        font-size: 15px;
+        margin-left: 40px;
+    }
+}

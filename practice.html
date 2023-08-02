@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin:0;
+    padding:0;
+}
+.standing-out{
+    padding-top: 51px;
+}
+.standing-out__heading{
+    margin-top: 0;
+    font-size:5rem;
+    padding-top:5rem;
+    color:#0020f6;
+    margin-bottom: 80px;
+}
+.standing-out__heading::before{
+    content: "";
+    height:0.75rem;
+    width:150px;
+    display:inline-block;
+    margin-bottom:15px;
+    vertical-align: middle;
+    margin-right:50px;
+    background-color: yellow;
+}
+.standing-out__imgbox img{
+    width:100%;
+
+}
+.standing-out__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -50px auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.standing-out__card{
+    width: 21.875rem;
+    text-align: center;
+    background-color: #f5f5f5;
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    height: 120px;
+}
+.standing-out__card .standing-out__imgbox{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+}
+.standing-out__card .standing-out__imgbox img {
+    position: relative;
+    left:0;
+    top:0;
+}
+.standing-out__imgbox img {
+    width: 350px;
+    height: 250px;
+}
+.standing-out__card .standing-out__content{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:60px;
+    overflow: hidden;
+    background-color: rgb(177, 180, 180);
+}
+.standing-out__card:hover .standing-out__content{
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .standing-out__title {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #001186;
+}
+
+    </style>
+</head>
+<body>
+    <div class="standing-out">
+        <h1 class="standing-out__heading">STANDING OUT</h1>
+        <div class="standing-out__container">
+            <div class="standing-out__card">
+                <div class="standing-out__imgbox">
+                    <img src="https://www.specbee.com/sites/default/files/styles/card/public/2023-05/end-to-end-expertise.jpg?itok=1b3cDGl5" alt="">
+                </div>
+                <div class="standing-out__content">
+                    <h3 class="standing-out__title">END-TO-END EXPERTISE</h3>
+                    <p>Our clients expect us to handle every aspect of a project so Specbee has built a well-rounded in-house team with expertise in UI/UX design, front end implementation, and Drupal development. While every web development company probably says that, we do not outsource and work unless specifically requested by the client.</p>
+                </div>
+            </div>
+            <div class="standing-out__card">
+                <div class="standing-out__imgbox">
+                    <img src="https://www.specbee.com/sites/default/files/styles/card/public/2023-05/Deployment-and-Scaling-Expertise.jpg?itok=m1ay4G5X" alt="">
+                </div>
+                <div class="standing-out__content">
+                    <h3 class="standing-out__title">DEPLOYMENT AND SCALING EXPERTISE</h3>
+                    <p>As a trusted Drupal development company, we have built, deployed and maintained several extremely high traffic websites on Drupal. We know how to scale your Drupal website to enable maximum traffic handling capabilities.</p>
+                </div>
+            </div>
+            <div class="standing-out__card">
+                <div class="standing-out__imgbox">
+                    <img src="https://www.specbee.com/sites/default/files/styles/card/public/2023-05/experience.jpg?itok=nqpZKDW-" alt="">
+                </div>
+                <div class="standing-out__content">
+                    <h3>EXPERIENCE</h3>
+                    <p>Having worked on Drupal since version 4.x, our Drupal developers have invaluable expertise on implementing and maintaining some of the most complex web applications and sites. As a top Drupal development company, our services guarantee that a Drupal expert is working on your case and will be able to assist you with all your Drupal requirements.</p>
+                </div>
+            </div>
+            <div class="standing-out__card">
+                <div class="standing-out__imgbox">
+                    <img src="https://www.specbee.com/sites/default/files/styles/card/public/2023-05/cost-effective.jpg?itok=LioH7JT2" alt="">
+                </div>
+                <div class="standing-out__content">
+                    <h3>COST EFFECTIVE</h3>
+                    <p>We have unmatched experience in Drupal development, but we are also known for our cost-effective, comprehensive solutions. Whether you are looking for a large-scale, end-to-end Drupal solution or minor, tailor-fit solution, our Drupal services can help you deliver quality results while sticking to your budget.</p>
+                </div>
+            </div>
+            <div class="standing-out__card">
+                <div class="standing-out__imgbox">
+                    <img src="https://www.specbee.com/sites/default/files/styles/card/public/2023-05/customers-come-first.jpg?itok=WWxYpjaT" alt="">
+                </div>
+                <div class="standing-out__content">
+                    <h3>CUSTOMERS COME FIRST</h3>
+                    <p>At Specbee, our customers always come first. We offer optimized Drupal development services, keeping in mind your specific business objectives, time and budget. Our customers think of us as their technology partners and entrust us with the technological aspects of their businesses. We aim to do everything in our power to ensure that trust is well-deserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

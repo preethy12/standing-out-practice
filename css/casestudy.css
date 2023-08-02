@@ -1,0 +1,116 @@
+.case-study__content{
+    display: flex;
+}
+.case-study{
+    width: 100%;
+}
+.case-study__img{
+margin-left: 150px;
+}
+.case-study__container{
+    background-color: white;
+    padding: 50px;
+    margin: 100px 0;
+    position: relative;
+    left:-50px;
+    width: 30%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+
+}
+.case-study__title{
+    margin-bottom: 20px;
+    font-size: 55px;
+}
+.case-study__description{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.case-study--link{
+display: block;
+float: right;
+text-decoration: none;
+}
+.case-button-container{
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+}
+.case-button--link {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f05a10;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+@media only screen and (min-width:668px )and (max-width:1024px){
+    .case-study__img{
+        margin-left: 50px;
+        max-height: 512px;
+    }
+    .case-study__description{
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .case-button-container{
+        position: absolute;
+        bottom: -29px;
+        right: 0;
+    }
+}
+@media only screen and (min-width:375px )and (max-width:667px) {
+.case-study__content {
+    display: flex;
+    flex-direction: column;
+}
+.case-study__img img{
+    width: 100%;
+
+}
+.case-study__img{
+    margin-left: unset;
+    order:2;
+}
+.case-study__container {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left:0;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    order: 1;
+}
+.case-study__title{
+    margin-bottom: 20px;
+    font-size: 2.25rem;
+    text-align: center;
+    margin-top: 30px;
+}
+.case-study__description{
+    margin-bottom: 20px;
+    font-size: 23px;
+    text-align: center;
+
+}
+.case-study--link {
+    display: block;
+    float: none;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 15px;
+    color:black;
+}
+.case-study{
+    margin-bottom: 100px;
+}
+
+.case-button-container {
+    position: absolute;
+    right: 20%;
+    bottom: -60vh;
+}
+}

@@ -1,0 +1,86 @@
+.quote{
+    background-color: #222a62;
+    width: 75%;
+    color: white;
+    padding-bottom: 40px;
+}
+.quote__wrapper{
+    margin-left: 5%;
+    padding:20px;
+}
+.quote__sentance{
+    margin-left: 20px;
+    font-size: 38px;
+    font-style: italic ;
+    padding: 8px;
+    line-height: 35px;
+}
+.quote-info{
+    float: right;
+    font-weight: 200;
+    font-style: italic;
+    margin-right: 8px;
+    padding-top: 10px;
+}
+.quote__author{
+    font-style: unset;
+}
+
+@media only screen and (min-width:668px )and (max-width:1024px){
+    .quote__sentance{
+        font-size: 34px;
+    }
+    .quote__author{
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .quote{
+        width: 82%;
+    }
+    .quote__position{
+        font-size: 12px;
+        font-weight: 100;
+    }
+}
+@media only screen and (min-width:375px )and (max-width:667px) {
+.quote__sentance {
+    margin-left: 20px;
+    font-size: 16px;
+    font-style: italic;
+    padding: 8px;
+    line-height:unset;
+}
+.quote{
+    width: 100%;
+}
+.quote__wrapper span{
+    font-size: 20px;
+}
+.quote__author{
+    font-size:12px;
+}
+.quote__author{
+    font-size:12px;
+}
+.quote-info{
+    margin-right: 8px;
+    padding-top: 10px;
+    margin-left: 90px;
+}
+.quote__position{
+    font-size: 12px;
+}
+.brand-quote__author__name {
+    font-style: unset;
+    float: right;
+    font-size: 16px;
+    margin-right: 120px;
+
+}
+.brand-quote__author__desc {
+    margin: 10px;
+    font-size: 14px;
+    float: right;
+    margin-left: 160px;
+}
+}

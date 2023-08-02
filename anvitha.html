@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Application Form</title>
+  <style>
+    /* Add some basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      margin: 0 auto;
+      max-width: 400px;
+    }
+
+    label, input {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      margin-top: 20px;
+    }
+
+    #result {
+      margin-top: 30px;
+      border: 1px solid #ccc;
+      padding: 12px;
+      width:52% ;
+      background-color: rgb(201, 180, 217);
+      margin-left: 22%;
+    }
+#applicationForm{
+    background-color: aquamarine;
+}
+  </style>
+</head>
+<body>
+  <h1>Online Application Form</h1>
+
+  <form id="applicationForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" required>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <div id="result"></div>
+
+  <script>
+    var form = document.getElementById("applicationForm");
+    form.addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent form submission
+
+      // Get the input values
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var phone = document.getElementById("phone").value;
+
+      // Create a formatted message
+      var message = "<p><strong>Name:</strong> " + name + "</p>" +
+                    "<p><strong>Email:</strong> " + email + "</p>" +
+                    "<p><strong>Phone:</strong> " + phone + "</p>";
+
+      // Display the message in the result div
+      var resultDiv = document.getElementById("result");
+      resultDiv.innerHTML = message;
+
+      // Reset the form
+      form.reset();
+    });
+  </script>
+</body>
+</html>

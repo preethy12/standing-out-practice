@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.affliation__item__img{
+    width: 135px;
+    padding: 28px 28px 0;
+
+}
+.affiliation__list{
+    display: flex;
+    gap: 10px;
+}
+.affliation_item{
+    border: 1px solid transparent  ;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 68px;
+}
+.affliation__item-text{
+    padding: 22px;
+    text-align: center;
+}
+.affliation{
+    max-width: 1400px;
+    margin: auto;
+    padding: 70px 0 0 70px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+.affliation__heading{
+    font-size: 50px;
+    margin-bottom: 42px;
+}
+.affliation::before{
+width: 93%;
+z-index:-999;
+background: #e8eae0;
+content: "";
+height: 99%;
+position:absolute;
+left: 0;
+box-shadow: 0px 3px 35px 0 rgb(0,0,0,0.08);
+top:1%;
+}
+
+@media only screen and (min-width:668px )and (max-width:1024px){
+    .affliation{
+        width:85%;
+        margin: auto;
+        padding: 20px 0 0 20px;
+        box-sizing: border-box;
+        position: relative;
+
+    }
+    .affliation__heading{
+        font-size: 30px;
+        margin-bottom: 42px;
+    }
+}
+@media only screen and (min-width:375px )and (max-width:667px) {
+    .affliation{
+        width:100%;
+        margin: auto;
+        padding: 4rem 0rem 0 0rem;
+        box-sizing: border-box;
+        position: relative;
+
+
+    }
+    .affiliation__list{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .affliation__heading{
+        font-size: 20px;
+        margin-bottom: 42px;
+    }
+    .affliation_item{
+        border: 1px solid transparent  ;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        margin-bottom: 40px;
+        margin-left:10%;
+        margin-right: 20%;
+    }
+    .affliation::before{
+        width: 100%;
+        z-index:-999;
+        background: #eaeedc;
+        content: "";
+        position:absolute;
+        left: 0;
+        box-shadow: 0px 3px 35px 0 rgb(0,0,0,0.08);
+        top:1%;
+        }
+
+}

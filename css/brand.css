@@ -1,0 +1,135 @@
+.brand{
+    width: 100%;
+    display: flex;
+
+}
+.brand__container{
+    width:70%;
+    background-color: white;
+    margin-top: -9%;
+    padding: 50px;
+}
+.brand__desc{
+    font-size: 4rem;
+    margin-bottom: 3.4rem;
+}
+.brand__logo{
+    display: flex;
+    flex-direction: column;
+}
+.brand__logo_list{
+    display: flex;
+    list-style: none;
+    gap: 6rem;
+    margin-left: 30px;
+    margin-right: 38px;
+}
+.brand__logo__img{
+    width: 100%;
+    height: auto;
+    max-height: 5.875rem;
+    max-width: 30rem;
+    margin: auto;
+    display: block;
+    text-decoration: none;
+}
+.brand__logo__bg-color{
+
+    background-color: #f8f9fa;
+}
+.brand-quote{
+    background-color: #222a62;
+    margin:100px 0;
+    padding: 55px;
+    color: white;
+    max-width: 20%;
+    position: relative;
+    left:-90px ;
+    font-style: italic;
+
+}
+.brand-quote__container{
+    font-size: 38px;
+    margin-bottom: 30px;
+
+}
+.brand-quote__author__name{
+    font-style:unset;
+}
+.brand-quote__author__desc{
+margin: 10px;
+}
+
+@media only screen and (min-width:668px )and (max-width:1024px){
+    .brand__desc{
+        font-size: 40px;
+    }
+    .brand__container {
+        width: 70%;
+        background-color: white;
+        margin-top: -20.5%;
+        padding: 50px;
+    }
+    .brand-quote__container {
+        font-size: 19px;
+    }
+    .brand-quote__author__desc{
+        font-size: 13px;
+    }
+    .brand-quote {
+        margin: 50px 0;
+        padding: 2.9rem 1rem;
+        left: -10px;
+        margin-right: 50px;
+    }
+    .brand__logo_list {
+        display: flex;
+        list-style: none;
+        gap:unset;
+        margin-left: none;
+        margin-right: none;
+    }
+
+}
+
+@media only screen and (min-width:375px )and (max-width:667px){
+
+    .brand {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .brand__container {
+        width: 100%;
+        background-color: white;
+        margin-top: 0;
+        padding: 0;
+    }
+    .brand__desc{
+        font-size: 33px;
+        margin-bottom: 3.4rem;
+        text-align: center;
+    }
+    .brand-quote {
+        background-color: #222a62;
+        margin: unset;
+        padding:0;
+        color: white;
+        width: 100%;
+        position: relative;
+        left: 0;
+        font-style: italic;
+        max-width: unset;
+    }
+    .brand-quote__container{
+        font-size: 16px;
+        margin-bottom: 30px;
+
+    }
+    .brand__logo_list{
+        gap:unset;
+    }
+    .brand__logo{
+        margin-bottom: 30px;
+    }
+}
